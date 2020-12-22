@@ -12,7 +12,8 @@ pipeline {
     	}
     	stage('Build') {
         	steps {
-        	sh "mvn compile"  	 
+        	sh "mvn compile"
+			
         	}
     	}
    	 
@@ -22,4 +23,7 @@ pipeline {
         	}
     	}
 	}
+<<<<<<< HEAD
 }
+=======
+>>>>>>> fd7126f4d0b25a23dd65dea34a6636e6c7543b8b
